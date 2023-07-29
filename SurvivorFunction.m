@@ -12,7 +12,6 @@ data = [FailureTime, Censored];
 figure()
 ecdf(gca, data(:,1), 'Censoring',data(:,2));
 
-
 %% Step 3: Plot survivor functions
 figure()
 ax1 = gca;
